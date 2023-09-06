@@ -1,0 +1,17 @@
+<single-spa-router>
+  <main>
+    <route default>
+      <div>
+      <application name="@navbarModule/navbar"></application>
+      </div>
+      <div>
+        <route path="planets">
+          <application name="@PlanetChildren/Planets"></application>
+        </route>
+        <route path="stars">
+          <application name="@StarsChildren/Stars"></application>
+        </route>
+      </div>
+    </route>
+  </main>
+</single-spa-router>
