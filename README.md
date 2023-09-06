@@ -1,2 +1,2 @@
-# single-spa-poc
+# Root-Config
 Micro Frontend POC using Single-SPA
